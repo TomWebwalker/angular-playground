@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {SignalsFeatureComponent} from "./signals-feature/signals-feature.component";
 import {RequiredInputFeatureComponent} from "./required-input-feature/required-input-feature.component";
 import {RouterOutlet} from "@angular/router";
+import {DynamicOutletInputComponent} from "./dynamic-outlet-input/dynamic-outlet-input.component";
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,8 @@ import {RouterOutlet} from "@angular/router";
   imports: [
     SignalsFeatureComponent,
     RequiredInputFeatureComponent,
-    RouterOutlet
+    RouterOutlet,
+    DynamicOutletInputComponent
   ],
   standalone: true
 })
